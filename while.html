@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>while</title>
+</head>
+
+<body>
+
+
+    <!-- <script>
+        let a = 0;
+        while(a<=10){
+            console.log(a);
+            a++;
+        }
+    </script>
+    <script>
+        let i = 0;
+        let name = "alladeen"
+        while(i<=10){
+            console.log(name)
+            i++;
+        }
+    </script>
+    <script>
+        let s = 1;
+        let myname = "AD"
+        while(s<=12){
+            console.log(myname)
+            s++;
+        }
+    </script>
+    <script>
+        let total = 10;
+        let i = 1;
+        while(i<10){
+            total = total + i;
+            i++;       
+        }
+        console.log(total);
+    </script> -->
+    <!-- <script>
+    for(let i =0; i<10;i++){
+        console.log(i)
+    }
+   </script> -->
+    <!-- <script>
+    let i= 0;
+    while(i<=10){
+        console.log(i)
+        i++;
+    }
+   </script> -->
+    <!-- <script>
+ for (var counter = 0; counter <= 7; counter++) {
+    if (counter ==7) {    
+        break;        // break condition  
+    }
+    console.log(counter);
+}
+   </script> -->
+    <!-- <script>
+    let a= 1;
+    while(a<=10){
+        if(a===4){
+            continue;
+        }
+        console.log(a);
+        a++;
+    }
+    console.log("hello world")
+  </script> -->
+    <!-- <script>
+    for(let a = 0; a<=20; a++){
+        if(a===4){
+            continue;
+        }
+        console.log(a);
+    }
+  </script> -->
+    <!-- <script>
+    let i = 9;
+    do{
+        console.log(i);
+        i++;
+    }while(i<=9)
+  </script> -->
+    <!-- <script>
+    let fruits = ["apple","mangoe","grapes"];
+    for(let fruit of fruits){
+        console.log(fruits);
+    }
+ </script> -->
+    <!-- <script>
+    let fruits = ["alladeen", "m deen", "qadir", "jaleel"]
+    for(let index in fruits){
+        console.log(fruits[index])
+    }
+ </script> -->
+    <!-- <script>
+    let num =["alladen", "m deen"]
+    for(let num1 of num){
+    console.log(num)
+    }
+ </script> -->
+    <!-- <script>
+    let a = ["alladeen","mdeen","saeed","jaleel","qadir"];
+    for(let i of a){
+        console.log(i);[]
+    }
+ </script> -->
+    <!-- <script>
+    let d ={name:"alladeen", age:"20",adress:"bwp"}
+    // console.log(`""${a.name}`)
+    console.log(d.)
+   
+ </script> -->
+    <!-- <script>
+    let name = ["alladeen","m deen"]
+    for(let a of name){
+        console.log(a);
+    } -->
+    <!-- </script> -->
+    <!-- <script>
+    let c = {name:"alladeen",age:20,addres:"bwp"}
+    for(let d in c){
+        console.log(d + " : " + c [d]);
+    } -->
+    <!-- <script>
+        let a = ["alladeen","mdeen","jaleel"]
+        console.log(a);
+        console.log(a.pop());
+        console.log(a);
+    </script>
+ </script> -->
+
+    <!-- <script>
+    let arr = [1,2,3,4,]
+    arr.push(5,6);
+    console.log(arr);
+ </script> -->
+
+    <!-- <script>
+  let arr = [1,2,3,4]
+  let endelement = arr.pop();
+  console.log(endelement);
+</script> -->
+    <!-- <script>
+    let myname = ["alladeen","m deen","saeed","jaleel"]
+    let name = (myname.pop());
+    console.log(name);
+</script> -->
+    <!-- <script>
+    let he = [1,2,3,4,5,6,7]
+    // he.pop(7);
+    // console.log(he);
+    let she = (he.pop());
+    console.log(she);
+</script> -->
+
+    <!-- <script>
+    let name = ["alladeen","mdeen"]
+    console.log(name);
+
+    name.push("Tayyab")
+    console.log(name);
+</script> -->
+
+    <!-- <script>
+    let name = [1,2,3,4]
+    let myname = (name.shift());
+    console.log(myname);
+</script> -->
+
+    <!-- <script>
+    let myname = [1,2,3]
+    myname.unshift(0);
+    console.log(myname);
+</script> -->
+
+    <!-- <script>
+    let name = ["alladeen","m deen","tayyab"]
+    name.unshift("qadir");
+    console.log(name);
+</script> -->
+
+    <!-- <script>
+    let name = [1,2,3,4]
+    let myname = name.unshift(5,6,7)
+    console.log(myname);
+</script> -->
+
+    <!-- <script>
+   let myarr = [1, 2, 3, 4, false, "string"];
+console.log("Data type is " + (typeof myarr))
+</script> -->
+
+    <!-- <script>
+    let leo = {
+  type: "Dog",
+  name: "Leo",
+};
+
+let snoop = leo;
+// console.log(leo);
+
+snoop.name = "Snoop";
+
+console.log(leo.name); 
+console.log(snoop.name)
+</script> -->
+
+    <!-- <script>
+    let a1 = ["item1","item2"];
+    let a2 = [].concat(a1,["item3","item4"])
+    console.log(a1===a2);
+    console.log(a1)
+    console.log(a2);
+</script> -->
+
+    <!-- <script>
+    const name = ["a","b","c","d"]
+    const myname = [];
+    for(let i in name){
+        myname.push(name[i].toUpperCase());
+    }
+    console.log(myname);
+</script> -->
+
+    <!-- <script>
+    const name= ["ad","md"]
+    let myname= name[0];
+    let hisname= name[1];
+    console.log("my name is",myname);
+    console.log("my brother name",hisname); 
+</script> -->
+
+    <!-- <script>
+    let aboutme = ["alladeen",19,"bwp", "name","hswd"]
+    let [name,city, ...newarray] = aboutme;
+    console.log(name);
+    console.log(city);
+    console.log(newarray);
+</script> -->
+
+    <!-- <script>
+    let a1 = [1,2,3,4];
+    let a2= a1.slice();
+    console.log(a1);
+    console.log(a2);
+</script>
+
+<script>
+    let a3 = ["ak","shf","nfdkjesn"]
+    let a4 = [].concat(a3 ["ad","md"])
+    console.log(a3);
+    console.log(a4);
+</script>
+
+<script>
+    let a5 = [1,2,3,4,5];
+    let a6 = [...a5]
+    console.log(a5);
+    console.log(a6, 6,7,8)
+</script> -->
+    <!-- <script> -->
+    <!-- let a1 = ["alladeen",19,"bwp","FSc",2394];
+    let [name,age ,city,...edu] = a1;
+    console.log(name);
+    console.log(city);
+    console.log(edu);
+ 
+</script> -->
+
+    <!-- <script>
+    let {a,b} = {a:1,b:2}
+    console.log(a,b)
+</script> -->
+
+    <!-- ################cloning of array################ -->
+
+    <!-- <script>
+    let a = ["a","b","c"]
+    console.log(a);
+    let b = [].concat(a);
+    console.log(b);
+
+</script> -->
+
+    <!-- <script>
+    const ab = [1,2,3,4,5,6];
+    console.log(ab);
+    let a1 =ab.slice(0,4);
+    console.log(a1);
+</script> -->
+
+    <!-- <script>
+    const ab = ["alladeen","m deen"];
+    console.log(ab);
+    let a1 = [].concat(ab);
+    console.log(a1);
+</script> -->
+
+    <!-- <script>
+    const a1 = [1,2,3,4,5,6];
+    console.log(a1);
+    let ab = [...a1]
+     console.log(ab);
+</script> -->
+
+    <!-- ##############array destructring #################### -->
+    <!-- <script>
+//    const myname = ["alladeen","m deen",20,["tayyab","naveed"]];
+//    console.log(myname);
+//    let [name,broname,age,[...dost]]=myname;
+//    console.log(name);
+//    console.log(dost);
+// </script> -->
+
+    <!-- <script>
+    const aboutme= ["alladeen","saeed","tayyab",20.,302,"jaleel","qadir"]
+    let [myname,czn1,czn2,age,chak,czn3,czn4,bro] = aboutme;
+    console.log(czn2,czn1,czn3,czn4);
+</script> -->
+
+    <!-- ############ String Concatenation ############ -->
+
+    <!-- <script>
+    const a1 = "alla";
+    const a2 = "deen";
+    const a = a1 + " " +a2;
+    console.log(a);
+</script> -->
+
+    <!-- <script>
+    let a1 = "10";
+    let a2 = "27";
+    let a = +a1 +  +a2
+    console.log(a);
+</script> -->
+
+    <!-- <script>
+    let name = "alladeen";
+    let age = 20;
+    let aboutme = `My name is ${name} and my age is ${age}`;
+    console.log(aboutme);
+</script> -->
+
+    <!-- #############undefined #################### -->
+
+    <!-- <script>
+    let name;
+    console.log(typeof name);                     
+</script> -->
+
+    <!-- <script>
+    const name;
+    console.log(name);
+</script> -->
+
+    <!-- #################### dot and bracket notation############# -->
+
+    <!-- <script>
+    let key = "email"
+    let person = {
+        name: "alladeen",
+        age:22,
+       "person hobbies":["play","reading","listining"]
+    };
+    console.log(person.name);
+    console.log(person.age);
+    console.log(person.hobbies);
+    person.gender= "male";
+    console.log(person["person hobbies"]);
+    person[key]= "alladeen302@gamil .com"
+    console.log(person);
+    
+</script> -->
+
+    <!-- ############# lretate object ############### -->
+
+    <!-- <script>
+    const person ={
+        name :"alladeen",
+        age: 20,
+        city:"bwp"
+    } -->
+    <!-- // for(let key in person){
+    //     // console.log(`${key} : ${person[key]}`)
+    //     // console.log(key, ":" ,person[key]);
+
+    // }
+//     console.log(Object.keys(person));
+//    const val= Array.isArray(Object.keys(person));
+//    console.log(val);
+// for(let key in Object.keys(person)){
+// console.log(person[key]);
+// } -->
+
+    <!-- <script>
+    const key1 = "objkey1"
+    const key2 = "objkey2"
+
+    const value1 = "myvalue1"
+    const value2 = "myvalue2"
+    
+    // const obj ={
+    //     [key1] : value1,
+    //     [key2] : value2,
+    // }
+    const obj = {}
+    obj[key1] = value1;
+    obj[key2] = value2;
+    console.log(obj);
+
+</script>
+
+</script> -->
+
+    <!-- ########### Spread Operater in array  ################ -->
+    <!-- 
+<script>
+    const key1 = [1,2,3,4];
+    const key2 =[5,6,7,8];
+    const key = [..."key1"];
+    console.log(key);
+</script> -->
+
+    <!-- ###################### Spread Operater in Object ############  -->
+
+    <!-- <script>
+    const obj1 ={
+        key1 :"value1",
+        key2 : "value2"
+    }
+    const obj2 = {
+        key1 : "uniqevalue",
+        key3 : "value3",
+        key4 : "value4"
+    }
+    const newobj = {...obj1,...obj2};
+    console.log(newobj);
+</script> -->
+
+    <!-- ################# Object Destructuring  ############### -->
+
+    <!-- <script>
+const band = {
+    bandName: "led zeppilen",
+    famousName:"to heaven"
+}
+const bandName = band.bandName;
+const famousName = band.famousName;
+console.log(bandName, famousName);
+</script> -->
+
+    <!-- <script>
+    const band = {
+        bandName: "led zeppilen",
+    famousName:"to heaven"
+    }
+    const {bandName,famousName}= band;
+    console.log(bandName,famousName);
+</script> -->
+
+    <!-- ############ Object inside Array ############ -->
+
+
+    <!-- <script>
+    const users =[
+        {id:1, name:"alladeen",gender:"male"},
+        {id:2, name:"qadir",gender:"male"},
+        {id:3, name:"jaleel",gender:"male"}
+    ]
+    for(let user of users){
+        console.log(user.id);
+    }
+</script> -->
+
+    <!-- ############## Nested Destructuring  ############ -->
+
+    <!-- <script>
+     const users =[
+        {id:1, name:"alladeen",gender:"male"},
+        {id:2, name:"qadir",gender:"male"},
+        {id:3, name:"jaleel",gender:"male"}
+    ]
+    const [{name}, , {gender}]= users;
+    console.log(name,gender);
+</script> -->
+
+
+    <!-- ######### array ################ -->
+
+    <!-- <script>
+    const name = ["alladeen","m deen","qadir"];
+    console.log(typeof name, name);
+    console.log(Array.isArray(name));
+</script> -->
+
+
+    <!-- ################### push & pop ############### -->
+    <!-- <script>
+    const name = ["alladeen","m deen","qadir"];
+    console.log(name);
+    name.push("jaleel");
+    console.log(name);
+</script> -->
+
+    <!-- ############# shift & unshift ############# -->
+
+    <!-- <script>
+    const name = ["alladeen","m deen","qadir"];
+    console.log(name);
+    name.unshift("saeed");
+    console.log(name);
+</script> -->
+    <!-- <script>
+    const name = ["alladeen","m deen","qadir"];
+    console.log(name);
+    name.shift();
+    console.log(name);
+</script> -->
+
+    <!-- 
+################ loop in array #################### -->
+
+    <!-- <script>
+    const name = ["alla deen","saeed","jaleel","m deen"];
+    const name2 = [];
+    for(let i = 0;i<name.length; i++){
+        name2.push(name[i])
+    }
+</script> -->
+
+    <!-- ##################### iratetion in object ############## -->
+
+    <!-- <script>
+    const name = {
+        name : "alla deen",
+        age : 22,
+        city : "bwp"
+    }
+    for(let key in name){
+        console.log(key,  name[key]);
+    }
+</script> -->
+    <!-- 
+###################### computed properties ######### -->
+
+    <!-- <script>
+   const key1 = "array1"
+   const key2 = "array2"
+
+   const key3 = "array3"
+   const key4 = "array4"
+   let obj ={
+    key1 : key3,
+    key2 : key4
+   }
+   console.log(obj);
+</script> -->
+
+
+    <!-- ################### Object Destructuring ########## -->
+
+    <!-- <script>
+    const name = {
+        name : "alla deen",
+        myname : "Mr A D"
+    }
+    const name1 = name.name;
+    const name2 = name.myname;
+    console.log(name1,name2)
+    </script> -->
+
+    <!-- <script>
+        let add = (a)=>{
+            if(a % 2==0){
+                console.log("even");
+            }else{
+                console.log("odd")
+            }
+        }
+        add(13);
+        
+    </script> -->
+
+    <!-- <script>
+        function fchar(number){
+            return number[0];
+        }
+        console.log(fchar("abc"));
+    </script> -->
+
+    <!-- ########### function ######################## -->
+
+    <!-- <script>
+        const wellcome = function(name){
+            return `Hello & World ${name}`
+        }
+        console.log(wellcome)
+    </script> -->
+
+    <!-- ######### arrow  function ########## -->
+
+    <!-- <script>
+        const isEven =number=> {
+            return number % 2 === 0;
+        }
+        console.log(isEven(14));
+    </script> -->
+
+    <!-- ############# function inside function ############## -->
+
+    <!-- <script>
+        function app(){
+          const myfnc = ()=>{
+            console.log("hello from my fnc")
+          }
+          const sunoftwo = (num1,num2)=>{
+            return num1 + num2;
+          }
+          const null3 = (null1,null2) => null1 * null2;
+          console.log("inside app")
+          console.log(sunoftwo(2,3));
+          console.log(null3(4,5))
+        }
+        app();
+    </script> -->
+
+
+    <!-- <script>
+        function web() {
+         const f1 = () =>{
+            console.log("first name");
+         }
+         const f2 = ()=>{
+            console.log("second name");
+         }
+         const f3 = () =>{
+            console.log("third name")
+         }
+         console.log(f1());
+         console.log(f2 (""));
+        }
+        web();
+    </script> -->
+
+    <!-- <script>
+        const name = function(){
+            console.log("happy birthday .....")
+        }
+        name();
+    </script> -->
+
+    <!-- <script>
+        function name (a,b,c){
+            console.log(a+b+c)
+        }
+        name(2,3,4);
+    </script> -->
+
+    <!-- <script>
+        const name = (a,b,c) =>{
+            console.log(a+b+c);
+        }   
+        name(40,4,8);
+        </script> -->
+
+    <!-- <script>
+            const add = (number)=>{
+                if(number %2 ===0){
+                    console.log("even")
+                }
+                else{
+                    console.log("odd")
+                }
+            }
+            add(28);
+
+        </script> -->
+
+
+    <!-- <script>
+            function app (){
+                return ("My name is Alla Deen")
+            }
+            const value= app();
+            console.log(value);
+        </script> -->
+
+
+    <!-- <script>
+            function sum (number1,number2){
+                return (number1+number2);
+            }
+            const sumof = sum(7,0)
+            console.log(sumof);
+    
+        </script> -->
+    <!-- <script>
+            function sum (number1,number2,number3){
+                return (number1+number2+number3);
+            }
+            const sumof = sum(7,0,3)
+            console.log(sumof);
+    
+        </script> -->
+
+    <!-- <script>
+            function isEven (number){
+                if(number %2===0){
+                    console.log("even")
+                }else{
+                    console.log("odd")
+                }
+            }
+            console.log(isEven(0));
+            
+        </script> -->
+
+    <!-- <script>
+            function isEven (number){
+                 return number %2===0
+            }
+            console.log(isEven(3));
+        </script> -->
+
+    <!-- <script>
+            function value (string){
+                return string [1];
+            }
+            console.log (value("az"))
+        </script> -->
+
+    <!-- ############### function expression ########## -->
+
+    <!-- <script>
+            const name=function(){
+                return name % 2===0
+            }
+            const myname = name(8);
+            console.log(myname);
+        </script> -->
+
+    <!-- ############ lexical scope ########## -->
+
+
+    <!-- <script>
+            function myapp (){
+               const myvar ="value1"
+               function myFunc(){
+                const myvar ="59"
+                console.log("inside myfunc", myvar);
+               }
+               console.log(myvar);
+               myFunc();
+            }
+            myapp();
+        </script> -->
+
+    <!-- ############# default parameter ######### -->
+
+    <!-- <script>
+            function name (a,b=9){
+                return a+b
+            }
+            const myname = name(2);
+            console.log(myname);
+        </script> -->
+
+    <!-- ############# rest parameter ############# -->
+
+    <!-- <script>
+            function name (a,b,...c){
+                console.log (`a is ${a}`);
+                console.log (`b is ${b}`);
+                console.log (`c is `,c);
+            }
+            const myname =name(3,5,8,4,7,4,3);
+            console.log(myname);
+        </script> -->
+
+    <!-- <script>
+            function name(...numbers){
+                let name1 = 0;
+                for (number of numbers){
+                    name1 = name1 +number;                
+                } 
+                return name1;
+            }
+            let ans = name(1,2,3,4,5);
+            console.log(ans);
+        </script> -->
+
+    <!-- ############# param Destructuring ########### -->
+
+    <!-- <script>
+             const person = {
+                name : "alla deen",
+                gender : "male"
+             }
+             function abooutme({name,gender}){
+                console.log(name);
+                console.log(gender);
+             }
+             abooutme(person);
+        </script> -->
+
+    <!-- ############### callback functions ########### -->
+
+    <!-- <script>
+            function func(a){
+                a();
+            }
+            function func2 (){
+                console.log("inside function")
+            }
+            func(func2);
+
+        </script> -->
+
+
+
+    <!-- <script>
+            function plus( ...number){
+                let total = 0;
+                for(let newnumber of number){
+                    total = total + newnumber
+                }
+                return total;            
+            }
+           const ans = plus(1,2,3,4,5,6);
+           console.log(ans);
+        </script> -->
+
+    <!-- <script>
+             function plus( ...number){
+                let total = 1;
+                for(let newnumber of number){
+                    total = total*newnumber
+                }
+                return total;            
+            }
+           const ans = plus(1,2,3);
+           console.log(ans);
+        </script> -->
+    <!-- <script>
+        function plus(...number) {
+            let total = 40;
+            for (let newnumber of number) {
+                total = total / newnumber
+            }
+            return total;
+        }
+        const ans = plus(2,4,5);
+        console.log(ans);
+    </script> -->
+
+    <!-- <script>
+        function plus(...number) {
+            let total = 100;
+            for (let newnumber of number) {
+                total = total - newnumber
+            }
+            return total;
+        }
+        const ans = plus(29,20,3,5);
+        console.log(ans);
+    </script> -->
+
+    <!-- ################ Functioning returning function ######### -->
+
+    <!-- <script>
+        function func1 (){
+            function func2(){
+                return "hello world"
+            }
+            return func2;
+        }
+        const ans = func1 ();
+       console.log(ans());
+    </script> -->
+
+    <!-- <script>
+        function numbers (){
+            function mynumbers (){
+                console.log("hello world")
+            }
+            return mynumbers;
+        }
+       const ans = numbers();
+       console.log(ans());
+    </script> -->
+
+    <!-- ########### foreach ################## -->
+
+    <!-- <script>
+        const number = [2,4,5,8];
+        function func(number,index){
+            console.log(`index is ${index} number is ${number}`)
+        }
+        number.forEach(func);
+    </script> -->
+
+    <!-- <script>
+         const array = [4,6,7,9];
+         function func (that,those){
+            console.log(`index is ${those}`);
+            console.log(`Number is ${that}`);
+         }
+         array.forEach(func);
+    </script> -->
+    <!-- <p id="new">this heading</p>
+
+    <script>
+     document.getElementsById("new").innerHTML = "NEW HEADING"
+    </script> -->
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <div id="myclass">
+        <h1>This is a heading</h1>
+    </div>
+    <div class="hello">
+        <ul id="myul">
+            <li>home</li>
+            <li>about us</li>
+            <li>contect us</li>
+        </ul>
+    </div>
+    <div class="hello2">
+        <ul id="myid">
+            <li><a href="#">home</a> </li>
+            <li><a href="#">about</a> </li>
+            <li><a href="#">contect us</a> </li>
+        </ul>
+    </div>
+    <div id="myid2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum iusto dolorum nam, nesciunt suscipit earum assumenda autem quibusdam id eum ipsam architecto, nostrum illo officia inventore! Tempora itaque repellat blanditiis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, enim?</p>
+    </div>
+
+
+    <script>
+        var element;
+        document.getElementById("myclass").innerHTML= "<h1>HelloWorld</h1>";
+        element = document.getElementById("myclass").innerHTML;
+        console.log(element);
+    </script>
+</body>
+</html>

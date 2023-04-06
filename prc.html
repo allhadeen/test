@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+
+<body>
+
+
+    <!-- ################# trim ################# -->
+    <!-- <script>
+        let name = "    alladeen     ";
+        console.log(name);
+        console.log(name.length);
+        let newname = name.trim();
+        console.log(newname);
+        console.log(newname.length);
+    </script> -->
+    <!-- <script>
+        let name = "    alladeen     ";
+        console.log(name);
+        console.log(name.length);
+        name = name.trim();
+        console.log(name.length);
+    </script> -->
+
+    <!-- ############## toUpperCase################# -->
+    <!-- <script>
+    let myname = "alla deen";
+   myname = myname.toUpperCase( );
+   console.log(myname);    
+   </script> -->
+
+    <!-- ################## toLowerCase ########### -->
+    <!-- <script>
+    let myname = "ALLA DEEN";
+   myname = myname.toLowerCase( );
+   console.log(myname);    
+   </script> -->
+
+    <!-- ################### slice ##################### -->
+    <!-- <script>
+    let myname = "alladeensilla"  ;
+    name = myname.slice(2,6);
+    console.log(name);
+   </script> -->
+
+    <!-- ########## convert number into string ########## -->
+    <!-- <script>
+    let age = 22;
+    name = "alladeen";
+    console.log(typeof (age + ""));
+   </script> -->
+
+    <!-- <script>
+    let age = "ad";
+    age = Number(age);
+    console.log(typeof age);
+   </script> -->
+
+    <!-- ################### convert string into number ########## -->
+    <!-- <script>
+    let name = +"alladeen";
+    console.log(typeof name)
+   </script> -->
+
+    <!-- <script>
+    let age = "ad";
+    age = Number(age);
+    console.log(typeof age);
+   </script> -->
+
+    <!-- ################# string cancatenation ########### -->
+
+    <!-- <script>
+    let fname = "alla";
+    let lname = "deen";
+    let fullname = fname + " " +lname;
+    console.log(fullname);  
+    </script> -->
+
+    <!-- <script>
+        let number1 = "17";
+        let number2 = "28";
+        let number  = + number1 + +number2;
+        console.log(number);   
+    </script> -->
+
+    <!-- ############## templete string ################# -->
+    <!-- <script>
+        let name = "alladeen";
+        let age = 29;
+        let city = "bwp";
+        let aboutme = `My name is ${name},my age is ${age} and my city is ${city}.`;
+        console.log(aboutme);
+    </script> -->
+
+    <!-- ############ undefined ############## -->
+    <!-- <script>
+        let name;
+        console.log(typeof name);
+    </script> -->
+
+    <!-- ################## bigint ################# -->
+    <!-- <script>
+       let num1 = BigInt(23);
+       let num2 = 29n;
+       let num = (num1 + num2);
+       console.log(num);
+    </script> -->
+    <!-- <script>
+        let num = 324829739939132839n;
+        console.log(typeof num);
+    </script> -->
+    <!-- <script>
+        console.log(Number.MAX_SAFE_INTEGER);
+    </script> -->
+
+    <!-- ################### ternery operater ############# -->
+    <!-- <script>
+        let age = 5;
+        let drink = age > 5 ? "coffee" : "milk"
+        console.log(drink);
+    </script> -->
+
+    <!-- ###################### and operater ########## -->
+    <!-- <script>
+        // let firstname = "Alla deen";
+        // let age = 20;
+        // if(firstname[0]==="A" && age >18){
+        //     console.log("your name start with H and you are above 18")
+        // }else{
+        //     console.log("your statment is false")
+        // }
+     </script> -->
+
+    <!-- ############# OR operater ################# -->
+    <!-- <script>
+         let firstname = "Alla deen";
+        let age = 20;
+        if(firstname[0]==="a" || age >=20){
+            console.log("inside true")
+        }else{
+            console.log("inside false")
+        }
+     </script> -->
+
+    <!-- ######################## nested if ################# -->
+
+    <!-- <script>
+    let number = 37;
+    let guess = +prompt("Guess a number")
+    if(guess ===number){
+        console.log("your guess is right");
+    }else{
+        if(guess < number){
+            console.log("no is low");
+        }else{
+            console.log("no is too high")
+        }
+    }
+   </script>  -->
+
+    <!-- ################ if else if ################ -->
+    <!-- <script>
+    let temp = 46;
+    if(temp <0){
+        console.log("extremely cold outside");
+    }else if(temp <16){
+        console.log("cold outside")
+    }else if(temp <= 25){
+        console.log("weather is ok")
+    }else if(temp <35){
+        console.log("go for swim");
+    }else if(temp <45){
+        console.log("turn on AC")
+    }else{
+        console.log("too hot")
+    }
+   </script> -->
+
+    <!-- ################## switch statment ################ -->
+    <!-- <script>
+        let day = 7;
+        switch (day) {
+            case 0:
+                console.log("sunday");;
+                break
+            case 1:
+                console.log("monday");
+                break;
+            case 2:
+                console.log("tuesday");
+                break;
+            case 3:
+                console.log("wednesday");
+                break;
+            case 4:
+                console.log("thursday");
+                break;
+            case 5:
+                console.log("friday");
+                break;
+            case 6:
+                console.log("saturday");
+                break;
+            default:
+                console.log("invclid day");
+        }
+    </script> -->
+
+    <!-- ################## while loop ################ -->
+    <!-- <script>
+    let i = 0;
+    while(i<=9){
+        console.log(i);
+        i++;
+    }
+    console.log(`current value of i is ${i}`);
+</script> -->
+
+    <!-- ############# for loop ########### -->
+    <!-- <script>
+        for (let i = 0; i <= 7; i++) {
+            console.log(i);
+        }
+    </script> -->
+
+    <!-- ##################### do while loop ########## -->
+    <!-- <script>
+        let i = 10;
+        do {
+            console.log(i);
+            i++
+        } while (i <= 9);
+    </script> -->
+
+    <!-- ###################### array ###### -->
+    <!-- <script>
+        let students = ["alla deen","m deen","mr qb","jaleel"];
+        console.log(students);
+        console.log(typeof students);
+        console.log(Array.isArray(students));
+    </script> -->
+
+    <!-- ################# array push & pop ########## -->
+    <!-- <script>
+//  let students = ["alla deen","m deen","mr qb","jaleel"];
+//  students.push("saeed");
+//  console.log(students);
+
+ let students = ["alla deen","m deen","mr qb","jaleel"];
+ let hafiz =students.pop();
+ console.log(students);
+ console.log(hafiz)
+    </script> -->
+
+    <!-- ################## array unshift & shift ######### -->
+    <!-- <script>
+        // let students = ["alla deen", "m deen", "mr qb", "jaleel"];
+        // students.unshift("saeed","naveed");
+        // console.log(students);
+
+        let students = ["alla deen","m deen","mr qb","jaleel"];
+        let mine =students.shift();
+        console.log(students);
+        console.log("my name is", mine);
+    </script> -->
+
+    <!-- ############# clone of array ##################### -->
+    <!-- <script>
+    let num1 = [1,2,3,4,5];
+    console.log(num1);
+    let num2 =num1.slice(0);
+    console.log(num2)
+    num2.push(6);
+    console.log(num2);
+</script> -->
+
+    <!-- <script>
+    let num1 = [1,2,3,4];
+    console.log(num1);
+    let num2 = [].concat(num1);
+    console.log(num2);
+</script> -->
+
+    <!-- <script>
+    let num1 = [1,2,3,4,5];
+    console.log(num1);
+    let num2 =[...num1];
+    console.log(num2);
+</script> -->
+
+    <!-- #################### for loop in array ######### -->
+    <!-- <script>
+    let fruits = ["apple", "banana","grapes","mangoe"];
+    for(let i=0; i <fruits.length;i++){
+        console.log(fruits[i].toUpperCase());
+    }
+</script> -->
+    <!-- <script>
+    let fruits = ["apple", "banana","grapes","mangoe"];
+    let fruits2 = [];                 
+    for(let i=0; i <fruits.length;i++){
+        fruits2.push(fruits[i].toUpperCase());
+    }
+    console.log(fruits2);
+</script> -->
+
+    <!-- ##################### while loop in aarray ###### -->
+    <!-- <script>
+let names = ["alla deen","m deen","q b","jaleel"];
+let i = 0;
+while(i<names.length){
+    console.log(names[i].toUpperCase());
+    i++;
+}
+</script> -->
+    <!-- <script>
+        let names = ["alla deen", "m deen", "q b", "jaleel"];
+        let myname = [];
+        let i = 0;
+        while (i < names.length) {
+            myname.push(names[i].toUpperCase());
+            i++;
+        }
+        console.log(myname);
+    </script> -->
+
+    <!-- ############ for of loop in array ################ -->
+    <!-- <script>
+        let names = ["alla deen", "m deen", "q b", "jaleel"];
+        for(let name of names){
+            console.log(name.toUpperCase());   
+        }
+    </script> -->
+    <!-- <script>
+        let names = ["alla deen", "m deen", "q b", "jaleel"];
+        let myname = ["jaan khan"];
+        for(let name of names){
+            myname.push(name);   
+        }
+        console.log(myname);
+    </script> -->
+
+    <!-- ################ for in loop in array ############# -->
+    <!-- <script>
+        let name = ["alla deen", "m deen", "q b", "jaleel"];
+        for(let myname in name){
+            console.log(name[myname]);
+        }
+    </script> -->
+
+    <!-- ################## array destrucuring ################ -->
+    <!-- <script>
+        let name = ["alla deen", , ,"jaleel"];
+        let [name1,name2,name3,name4] = name;
+        console.log(name1);
+        console.log(name2);
+        console.log(name3);
+        console.log(name4);
+    </script> -->
+
+    <!-- ################## objects ############### -->
+    <!-- <script>
+        const person = { name: "alla deen", age: 22, city: "bwp" };
+        console.log(person);
+        console.log(person.name);
+    </script> -->
+
+    <!-- ############## how to add key value pair in object ######### -->
+    <!-- <script>
+         const person = { name: "alla deen", age: 22, city: "bwp" };
+        console.log(person);
+        person.gender = "male";
+        console.log(person);
+     </script> -->
+
+    <!-- ######### how to add an array in object ############## -->
+    <!-- <script>
+        const person = {
+            name: "alla deen",
+            age: 22,
+            city: "bwp",
+            hobbies: ["reading", "playing", "sleeping"]
+        }
+        console.log(person);
+    </script> -->
+
+    <!-- ############### how to access data by bracket notation ########## -->
+    <!-- <script>
+         const person = {
+            name: "alla deen",
+            age: 22,
+            city: "bwp",
+            hobbies: ["reading", "playing", "sleeping"]
+        }
+        console.log(person["hobbies"]);
+    </script> -->
+
+    <!-- ############## how to add an array in object ################# -->
+    <!-- <script>
+         const person = {
+            name: "alla deen",
+            age: 22,
+            city: "bwp",
+         }
+         console.log(person);
+         person["gender"] = "male";
+         console.log(person);
+    </script> -->
+
+    <!-- ############## how to access data of objects when name of key is double ########### -->
+    <!-- <script>
+     const person = {
+            name: "alla deen",
+            age: 22,
+            city: "bwp",
+           "person hobbies": ["reading", "playing", "sleeping"]
+        }
+        console.log(person);
+        console.log(person["person hobbies"]);
+</script> -->
+
+    <!-- <script>
+     const person = {
+            name: "alla deen",
+            age: 22,
+            city: "bwp",
+           person_hobbies: ["reading", "playing", "sleeping"]
+        }
+        console.log(person);
+        console.log(person[person_hobbies]);
+</script> -->
+
+    <!-- <script>
+    const key = "email";
+    const person = {
+            name: "alla deen",
+            age: 22,
+            city: "bwp",
+           person_hobbies: ["reading", "playing", "sleeping"]
+        }
+        person[key] = "alladeen@gamil.com";
+        console.log(person);
+</script> -->
+
+    <!-- ################### how to iterate  objects ############# -->
+    <!-- ################# iteration by for in loop method ########## -->
+    <!-- <script>
+    const person = {
+            name: "alla deen",
+            age: 22,
+            city: "bwp",
+           person_hobbies: ["reading", "playing", "sleeping"]
+        }
+        for(let key in person){
+            console.log(person[key])
+        }
+</script> -->
+    <!-- <script>
+    const person = {
+            name: "alla deen",
+            age: 22,
+            city: "bwp",
+           person_hobbies: ["reading", "playing", "sleeping"]
+        }
+        for(let key in person){
+            // console.log(`${key} : ${person[key]}`);
+            console.log(key, ":" , person[key])
+        }
+</script> -->
+
+    <!-- ################# iteration by object.keys method ######### -->
+    <!-- <script>
+    const person = {
+            name: "alla deen",
+            age: 22,
+            city: "bwp",
+           person_hobbies: ["reading", "playing", "sleeping"]
+        }
+        for(let key of Object.keys(person)){
+            console.log(key,":",person[key]);
+        }
+</script> -->
+
+    <!-- ##################### computed properties ######### -->
+    <!-- <script>
+    const key1 = "obj1";
+    const key2 = "obj2";
+
+    const value1 = "myvalue1";
+    const value2 = "myvalue2";
+    const obj ={
+       [ key1] : value1,
+       [ key2] : value2
+    }
+    console.log(obj);
+</script> -->
+
+    <!-- ################ spread operater ############### -->
+    <!-- <script>
+     const obj1= {
+        key1:"value1",
+        key2:"value2"
+     }
+     const obj2={
+        key3:"value3",
+        key4:"value4"
+     }
+     const newobj={...obj2,...obj1,key6:"old"};
+     console.log(newobj);
+</script> -->
+    <!-- <script>
+    let neew = {..."abcdefghijklmnopqrstuvwxyz"};
+    console.log(neew);
+</script> -->
+
+    <!-- ############### object destructuring ########## -->
+    <!-- <script>
+    const band = {
+        name1:"alla deen",
+        name2:"m deen",
+    };
+    const{name1 , name2 } = band;
+    console.log(name1 , name2);
+</script> -->
+
+    <!-- <script>
+      const band = {
+        name1:"alla deen",
+        name2:"m deen",
+    };
+    const{name1:var1 , name2:var2 } = band;
+    console.log(var1 , var2);
+</script> -->
+
+    <!-- <script>
+      const band = {
+        name1:"alla deen",
+        name2:"m deen",
+        year:2002,
+        month:"january"
+    };
+    const{name1 , name2,...rest } = band;
+    console.log(name1 , name2);
+    console.log(rest);
+</script> -->
+
+    <!-- ######### objects inside array ############# -->
+    <!-- <script>
+    const users = [
+        {name:"ad",age:22,city:"bwp"},
+        {name:"md",age:20,city:"fts"},
+        {name:"qb",age:24,city:"maroot"},
+    ]
+    for(let user of users){
+        console.log(user);
+    }
+</script> -->
+
+    <!-- <script>
+    const users = [
+        {name:"ad",age:22,city:"bwp"},
+        {name:"md",age:20,city:"fts"},
+        {name:"qb",age:24,city:"maroot"},
+    ]
+    for(let user of users){
+        console.log(user.name);
+    }
+</script> -->
+
+    <!-- ################### nested destructuring ######### -->
+    <!-- <script>
+       const users = [
+        {name:"ad",age:22,city:"bwp"},
+        {name:"md",age:20,city:"fts"},
+        {name:"qb",age:24,city:"maroot"},
+    ]
+   let [user1,user2,user3]=users;
+   console.log(user1,user2,user3);
+</script> -->
+
+    <!-- <script>
+       const users = [
+        {name:"ad",age:22,city:"bwp"},
+        {name:"md",age:20,city:"fts"},
+        {name:"qb",age:24,city:"maroot"},
+    ]
+   let [{age},{city},{name}]=users;
+   console.log(age,city,name);
+</script> -->
+
+    <!-- ############# functions ############# -->
+    <!-- ############### function decleration ############ -->
+    <!-- <script>
+    function func1 (){
+        console.log("happy birthday...")
+    }
+    func1();    
+</script> -->
+
+    <!-- <script>
+    function func1 (){
+        return "happy birthday...";
+    }
+    console.log(func1());
+</script> -->
+
+    <!-- <script>
+    function func1 (){
+        return "happy birthday...";
+    }
+    const name= func1();
+    console.log(name);
+</script> -->
+
+    <!-- ################# reusable function ########## -->
+    <!-- <script>
+    function func1 (num1,num2){
+        return num1 + num2;
+    }
+    const  func2 = func1(9,5);
+    console.log(func2);
+</script> -->
+
+    <!-- <script>
+    function func1(number){
+        if(number % 2 === 0){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    console.log(func1(4));
+</script> -->
+
+    <!-- <script>
+    function func1 (number){
+        return number[2];
+    }
+    console.log(func1("blla"));
+</script> -->
+
+    <!-- ############# function expression ########## -->
+    <!-- <script>
+        const myvar = function () {
+            return "hello world";
+        }
+        console.log(myvar());
+    </script> -->
+
+    <!-- <script>
+        const myvar = function (num1,num2,num3){
+            return num1+num2+num3;
+        }
+        console.log(myvar(2,3,6))
+    </script> -->
+
+    <!-- <script>
+        const myvar = function (num1,num2,num3){
+            return num1*num2*num3;
+        }
+        console.log(myvar(2,3,6))
+    </script> -->
+
+    <!-- <script>
+        const myvar = function(number){
+            if(number %2 ===0){
+                return true;
+            }else{
+                return false;
+            }
+        }
+        console.log(myvar(7));
+    </script> -->
+
+    <!-- <script>
+        const myvar = function (num){
+            return num[2]
+        }
+        console.log(myvar("gbwre"))
+    </script> -->
+
+    <!-- <script>
+        const myvar = function (num){
+            return num[2]
+        }
+        console.log(myvar("578572"))
+    </script> -->
+
+    <!-- ######### arrow function ######### -->
+    <!-- <script>
+        const myvar = () =>{
+            return "I am Alla Deen";
+        }
+        console.log(myvar());
+    </script> -->
+
+    <!-- <script>
+        const myvar = (num1,num2,num3) =>{
+            return num1-num2-num3;
+        }
+        console.log(myvar(100,28,7));
+    </script> -->
+
+    <!-- <script>
+        const myvar = (numbar) =>{
+            if(numbar%2===0){
+                return true;
+            }else{
+                return false
+            }
+        }
+        console.log(myvar(3));
+    </script>  -->
+
+    <!-- <script>
+        const myvar = name=>{
+return name[4+3];
+        }
+        console.log(myvar("alladeen"))
+    </script> -->
+
+    <!-- <script>
+        const myvar = hi => "alla deen"
+        console.log(myvar())
+    </script> -->
+
+    <!-- ################# hoisting ############ -->
+    <!-- <script>
+        console.log(name());
+        function name() {
+            return "hello world";
+        }
+    </script> -->
+
+    <!-- <script>
+        console.log(myvar());
+        const myvar= function(){
+            return "hello world";
+        }
+    </script> -->
+
+    <!-- <script>
+        console.log(myvar());
+        const myvar= (name) =>{
+            return "hello world";
+        }
+    </script> -->
+
+    <!-- <script>
+        console.log(hello);
+        var hello ="hello world";
+    </script> -->
+
+    <!-- <script>
+        console.log(hello);
+        let hello ="hello world";
+    </script> -->
+
+    <!-- <script>
+        console.log(hello);
+        const hello ="hello world";
+    </script> -->
+
+    <!-- ############# function inside function  ######### -->
+
+    <!-- <script>
+        const myvar = ()=>{
+            const var1 = ()=>{
+                console.log("function1");
+            }
+            const var3 = ()=>{
+                return "function3"
+            }
+            const var2 = () =>{
+                console.log("function2")
+            }
+            console.log("hello world");
+            var1();
+            var2();
+            console.log(var3());
+        }
+        myvar();
+    </script> -->
+
+    <!-- <script>
+        const myvar = () => {
+            const var1 = () => {
+                const var2 = () => {
+                    const var3 = () => {
+                        console.log("mr js");
+                    }
+                    console.log("mr qb");
+                    var3();
+                }
+                console.log("mr md")
+                var2();
+            }
+            console.log("mr ad");
+            var1();
+
+        }
+        myvar();
+
+    </script> -->
+
+    <!-- ############## deafault perameter ########## -->
+    <!-- <script>
+        const myvar = (num1, num2=9) => {
+            return num1 + num2;
+        }
+        const neew = myvar(6,);
+        console.log(neew);
+    </script> -->
+
+    <!-- ########## rest parameter ######### -->
+    <!-- <script>
+        const myvar = (a, b, ...c) => {
+            console.log(`a is ${a}`);
+            console.log(`b is ${b}`);
+            console.log(`c is `, c);
+        }
+        myvar(3, 4, 5, 6, 7, 8);
+    </script> -->
+
+    <!-- ############ parameter destructuring ######### -->
+    <!-- <script>
+        const person = {
+            name: "alladeen",
+            gender: "male"
+        }
+        function myvar(obj) {
+            console.log(obj.name);
+            console.log(obj.gender);
+        }
+        myvar(person);
+    </script> -->
+    <!-- 
+    <script>
+        const person = {
+            name: "alladeen",
+            gender: "male"
+        }
+        function myvar({name,gender}) {
+            console.log(name);
+            console.log(gender);
+        }
+        myvar(person);
+    </script> -->
+
+    <!-- ########## call back function ######### -->
+    <!-- <script>
+        const func1 = () => {
+            console.log("inside func1");
+        }
+        const func2 = (callback) => {
+            callback();
+        }
+        func2(func1);
+    </script> -->
+
+    <!-- ############### function returning function ######### -->
+    <!-- <script>
+        function func1() {
+            function func3() {
+               return "hello world";
+            }
+            return func3;
+        }
+        const func2 = func1();
+        console.log(func2());
+    </script> -->
+
+    <!-- ######### for each method ############ -->
+    <!-- <script>
+        const array1 = [2, 4, 7, 9];
+        function func1(number, index) {
+            console.log("index is", index);
+            console.log(`${number}*3= ${number * 3}`)
+        }
+        for (let i = 0; i < array1.length; i++) {
+            func1(array1[i],i);
+        }
+    </script>
+     -->
+    <!-- <script>
+        const array1 = [2, 4, 7, 9];
+        function func1(number, index) {
+            console.log("index is", index);
+            console.log(`${number}*3= ${number * 3}`)
+        }
+    array1.forEach(func1);
+    </script> -->
+
+    <!-- <script>
+       const users = [
+        {name:"alladeen",age:22},
+        {name:"m deen",age:21},
+        {name:"qadir",age:23},
+        {name:"jaleel",age:24},
+       ];
+       users.forEach(function(user){
+        console.log(user.age);
+       })
+    </script> -->
+
+    <!-- <script>
+       const users = [
+        {name:"alladeen",age:22},
+        {name:"m deen",age:21},
+        {name:"qadir",age:23},
+        {name:"jaleel",age:24}
+       ];
+       users.forEach(user=>{
+        console.log(user.name);
+       })
+    </script> -->
+
+    <!-- <script>
+        const users = [
+            { name: "alladeen", age: 22 },
+            { name: "m deen", age: 21 },
+            { name: "qadir", age: 23 },
+            { name: "jaleel", age: 24 }
+        ];
+        users.forEach((user, index) => {
+            console.log(user.name, index);
+        })
+    </script> -->
+
+    <!-- ############# map method ######### -->
+    <!-- <script>
+        const Number = [3,4,1,6,8];
+        const square = function (number){
+            return number*number;
+        }
+        const neww = Number.map(square);
+        console.log(neww);
+    </script> -->
+
+    <!-- <script>
+        const Number = [3,4,1,6,8];
+        const neww = Number.map((number)=>{
+            return number*number;
+        })
+        console.log(neww);
+    </script> -->
+
+    <!-- <script>
+        const Number = [3,4,1,6,8];
+        const neww = Number.map((number,index)=>{
+            return `index: ${index}, ${number*number}`;
+        })
+        console.log(neww);
+    </script> -->
+
+    <!-- <script>
+         const users = [
+            { name: "alladeen", age: 22 },
+            { name: "m deen", age: 21 },
+            { name: "qadir", age: 23 },
+            { name: "jaleel", age: 24 }
+        ];
+        const mynew = users.map((user)=>{
+            return user.name;
+        });
+        console.log(mynew);
+    </script> -->
+
+
+</body>
+
+</html>
